@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <title>Tic-Tac-Toe by Kartohan</title>
+</head>
+<body>
+    <div class="game-settings">
+        <form action="">
+            <label for="side">Choose a side</label>
+            <select name="side" id="side">
+                <option value="X">X</option>
+                <option value="O">O</option>
+            </select>
+            <input type="submit">
+        </form>
+    </div>
+    <div class="game-container">
+        <div class="game-sequence" data-id="0"></div>
+        <div class="game-sequence" data-id="1"></div>
+        <div class="game-sequence" data-id="2"></div>
+        <div class="game-sequence" data-id="3"></div>
+        <div class="game-sequence" data-id="4"></div>
+        <div class="game-sequence" data-id="5"></div>
+        <div class="game-sequence" data-id="6"></div>
+        <div class="game-sequence" data-id="7"></div>
+        <div class="game-sequence" data-id="8"></div>
+    </div>
+    <h1 class="win-text"></h1>
+    <button class="retry">Retry?</button>
+</body>
+</html>
