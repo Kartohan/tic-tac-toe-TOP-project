@@ -10,3 +10,5 @@ Unfortunately (or fortunately) I took the invincible AI algorithm. I wonder if a
 
 1. [AI Minimax Article](https://www.freecodecamp.org/news/how-to-make-your-tic-tac-toe-game-unbeatable-by-using-the-minimax-algorithm-9d690bad4b37/)<br>
 2. [Background gradient](https://www.gradientmagic.com/collection/standard/gradient/1563407267183)<br>
+
+Link - https://kartohan.github.io/tic-tac-toe-TOP-project/
