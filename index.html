@@ -9,14 +9,20 @@
     <title>Tic-Tac-Toe by Kartohan</title>
 </head>
 <body>
+    <h1>Tic-Tac-Toe</h1>
     <div class="game-settings">
         <form action="">
-            <label for="side">Choose a side</label>
-            <select name="side" id="side">
-                <option value="X">X</option>
-                <option value="O">O</option>
-            </select>
-            <input type="submit">
+                    <label for="side">Choose a side</label>
+                    <select name="side" id="side">
+                        <option value="X">X</option>
+                        <option value="O">O</option>
+                    </select>
+                    <label for="opp">and opponent</label>
+                    <select name="opp" id="opp">
+                        <option value="player">Player</option>
+                        <option value="computer">Computer</option>
+                    </select>
+            <input type="submit" value="Play!" class="btn">
         </form>
     </div>
     <div class="game-container">

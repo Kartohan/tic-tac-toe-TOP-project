@@ -2,13 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Ubuntu;
 }
 body {
     display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
     gap: 35px;
+    height: 100vh;
+    background-image: linear-gradient(135deg, rgb(245, 177, 77),rgb(237, 53, 115));
 }
 .game-container {
     display: none;
@@ -20,11 +22,93 @@ body {
 .game-sequence {
     font-size: 9em;
     text-align: center;
-    border: 1px solid gray;
+    border: 1px solid black;
+    transition: .2s;
+}
+.game-settings {
+    border-radius: 10px;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.2);
 }
 .win-text {
     display: none;
+    font-size: 3em;
 }
 .retry {
     display: none;
+    border-radius: 7px;
+    padding: 15px;
+    width: 210px;
+    border: none;
+    font-size: 1.5em;
+    transition: .2s;
+}
+.retry:hover {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.retry:active {
+    box-shadow: 0px 0px 0px 0px white;
+}
+h1:first-child {
+    padding: 40px;
+    text-align: center;
+    font-size: 3em;
+}
+select {
+    text-align: center;
+    font-size: 1.5em;
+    border-radius: 5px;
+    background-color: rgb(0 0 0 / 35%);
+    color: white;
+    border: 1px solid white;
+    transition: .3s;
+}
+select:focus {
+    outline: none;
+}
+select:hover {
+    background-color: rgba(0, 0, 0, 0.753);
+}
+label {
+    font-size: 1.7em;
+    color: white;
+    box-shadow: 0px 0px 0px 0px black;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.btn {
+    border-radius: 7px;
+    margin-top: 50px;
+    padding: 30px;
+    border: none;
+    font-size: 1.5em;
+    transition: .2s;
+}
+.btn:hover {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.btn:active {
+    box-shadow: 0px 0px 0px 0px white;
+}
+
+.game-sequence:hover {
+    background-color: rgba(0, 0, 0, 0.11);
+}
+
+@media screen and (max-width: 600px) {
+    .game-container {
+        width: 310px;
+        height: 310px;
+    }
+    .game-sequence {
+        font-size: 5em;
+    }
+    h1:first-child {
+        font-size: 2.5em;
+    }
 }
