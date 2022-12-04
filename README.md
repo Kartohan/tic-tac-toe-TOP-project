@@ -12,3 +12,6 @@ Unfortunately (or fortunately) I took the invincible AI algorithm. I wonder if a
 2. [Background gradient](https://www.gradientmagic.com/collection/standard/gradient/1563407267183)<br>
 
 Link - https://kartohan.github.io/tic-tac-toe-TOP-project/
+
+Preview
+![screencapture-kartohan-github-io-tic-tac-toe-TOP-project-2022-12-04-16_55_09](https://user-images.githubusercontent.com/99285514/205497812-2afa80e9-9474-49b0-81bc-86b2be7a7f78.png)
